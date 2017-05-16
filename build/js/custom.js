@@ -890,7 +890,7 @@ if (typeof NProgress != 'undefined') {
 			});
 
 
-			$(".sparkline_line").sparkline([2, 4, 3, 4, 5, 4, 5, 4, 3, 4, 5, 6, 4, 5, 6, 3, 5], {
+			$(".sparkline_line").sparkline([1, 14, -13, 24, -50, 40, 25, -40, 31, 42, 0, 60, -20, 10, 0, 3, 5], {
 				type: 'line',
 				lineColor: '#26B99A',
 				fillColor: '#ffffff',
@@ -4198,7 +4198,7 @@ if (typeof NProgress != 'undefined') {
 				  formatter: "{a} <br/>{b} : {c} ({d}%)"
 				},
 				calculable: true,
-				
+
 				toolbox: {
 				  show: true,
 				  feature: {
