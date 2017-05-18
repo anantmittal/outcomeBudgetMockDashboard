@@ -755,8 +755,8 @@ if (typeof NProgress != 'undefined') {
 			  color: '#1D212A'
 		  },
 		  limitMax: 'false',
-		  colorStart: '#1ABC9C',
-		  colorStop: '#1ABC9C',
+		  colorStart: '#ffae00',
+		  colorStop: '#ffae00',
 		  strokeColor: '#F0F3F3',
 		  generateGradient: true
 	  };
