@@ -2172,29 +2172,30 @@ if (typeof NProgress != 'undefined') {
 			  var lineChart = new Chart(ctx, {
 				type: 'line',
 				data: {
-				  labels: ["January", "February", "March", "April", "May", "June", "July"],
+				  labels: ["March 2016", "June 2016", "September 2016", "December 2016", "March 2017"],
 				  datasets: [{
-					label: "My First dataset",
-					backgroundColor: "rgba(38, 185, 154, 0.31)",
+					label: "Target",
 					borderColor: "rgba(38, 185, 154, 0.7)",
 					pointBorderColor: "rgba(38, 185, 154, 0.7)",
 					pointBackgroundColor: "rgba(38, 185, 154, 0.7)",
 					pointHoverBackgroundColor: "#fff",
 					pointHoverBorderColor: "rgba(220,220,220,1)",
 					pointBorderWidth: 1,
-					data: [31, 74, 6, 39, 20, 85, 7]
+					data: [10, 20, 30, 40,50]
 				  }, {
-					label: "My Second dataset",
-					backgroundColor: "rgba(3, 88, 106, 0.3)",
+					label: "Actual Value",
 					borderColor: "rgba(3, 88, 106, 0.70)",
 					pointBorderColor: "rgba(3, 88, 106, 0.70)",
 					pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
 					pointHoverBackgroundColor: "#fff",
 					pointHoverBorderColor: "rgba(151,187,205,1)",
 					pointBorderWidth: 1,
-					data: [82, 23, 66, 9, 99, 4, 2]
+					data: [9, 14, 26, 31,44]
 				  }]
 				},
+				options:{
+					legend:true				
+				}
 			  });
 
 			}

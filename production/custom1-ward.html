@@ -106,7 +106,7 @@
           <div class="nav_menu">
             <nav>
               <div class="nav toggle" style="width:350px;">
-                <a id="menu_toggle"><i class="fa fa-bars"></i></a><span style="float:right;"><h3 style="margin-top:0px;">Directorate of Education<small></small></h3></span>
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a><span style="float:right;"><h3 style="margin-top:0px;">% Student Attendance<small></small></h3></span>
               </div>
 
               <ul class="nav navbar-nav navbar-right">
@@ -202,180 +202,152 @@
         <div class="right_col" role="main">
 
           <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="dashboard_graph">
-
-                <div class="row x_title">
-
-                  <div class="col-md-6">
-                    <ul class="nav nav-pills">
-                      <li role="presentation" style="font-size:17px;"><a href="directorate_of_education.html">Expenditure</a></li>
-                      <li role="presentation" style="font-size:17px;"><a href="doe_critical_indicators.html">All Indicators</a></li>
-                      <li role="presentation" style="font-size:17px;" ><a href="doe_critical_indicators.html">Critical Indicators</a></li>
-                      <li role="presentation" style="font-size:17px;" class="active"><a href="doe_action_points.html">Action Points</a></li>
-                    </ul>
-                  </div>
-                  <div class="col-md-1"></div>
-                  <div class="col-md-5">
-                    <form class="form-inline" style="float:right;">
+            <div class="col-md-6 col-sm-12 col-xs-12" >
+              <div class="x_panel" style="height:470px;">
+                <div class="x_title">
+                  <h2>Line graph</h2>
+                  <ul class="nav navbar-right panel_toolbox">
+                    <form class="form-inline" >
                         <div class="form-group">
-                          <label for="exampleInputName2">Compare</label>
+                          <label for="exampleInputName2">Change Year</label>
                           &nbsp;&nbsp;<select class="form-control" id="sel1">
-                            <option>Year to Date</option>
-                            <option>Quarter to Date</option>
-                          </select>
-                        </div>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <div class="form-group">
-                          <label for="exampleInputEmail2">Sort</label>
-                          &nbsp;&nbsp;<select class="form-control" id="sel1">
-                            <option>Default</option>
-                            <option>Best to Worst</option>
-                            <option>Worst to Best</option>
+                            <option>2017</option>
+                            <option>2016</option>
                           </select>
                         </div>
                       </form>
-                  </div>
+                  </ul>
+                  <div class="clearfix"></div>
                 </div>
-              </br>
-
-
-                <div class="row">
-                  <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="x_panel">
-                      <div class="x_content">
-                        <table class="table table-hover">
-                          <thead>
-                            <tr>
-                              <th>#</th>
-                              <th style="width:200px;">Programme Name</th>
-                              <th style="width:100px;">Budget Allocation</br> (in lakhs)</th>
-                              <th style="width:100px;">Timeline</th>
-                              <th style="width:300px;">Objective</th>
-                              <th>Status</th>
-                              <th>% of action points on</br> track or completed</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr data-toggle="collapse" data-target="#demo1">
-                              <th scope="row">1</th>
-                              <td>Introduction of primary classes in the existing government schools</td>
-                              <td>18,950</td>
-                              <td>April-September 2017</td>
-                              <td>
-                                To provide integrated educational facility to the children
-                              </td>
-                              <td>
-                                <span style="background-color:#5CB85C;" class="badge">5</span>
-                                  <span style="background-color:#F0AD4E;" class="badge">9</span>
-                                <span style="background-color:#D9534F;" class="badge">6</span>
-
-                                <span class="badge">2</span></td>
-                              </td>
-                              <td style="font-size:30px;">60%</td>
-                            </tr>
-                            <tr>
-                              <td colspan="7">
-                                <div id="demo1" class="collapse">
-                                  <a href="custom1.html"><img style="width:100%;" src="images/action.png"/></a>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <th scope="row">2</th>
-                              <td>Sarva Shiksha Abhiyan</td>
-                              <td>15,000</td>
-                              <td>
-                              2017-18
-                              </td>
-                              <td>Universalization of Elementary Education</td>
-                              <td><span style="background-color:#5CB85C;" class="badge">5</span>
-                                <span style="background-color:#F0AD4E;" class="badge">9</span>
-                              <span style="background-color:#D9534F;" class="badge">6</span>
-
-                              <span class="badge">2</span></td>
-                              <td style="font-size:30px;">56%</td>
-                            </tr>
-                            <tr>
-                              <th scope="row">3</th>
-                              <td>Improvement of
-                                school libraries
-                                </td>
-                              <td>1,700</td>
-                              <td>
-                              2017-18
-                              </td>
-                              <td>Improvement in teaching and learning</td>
-                              <td><span style="background-color:#5CB85C;" class="badge">5</span>
-                                <span style="background-color:#F0AD4E;" class="badge">9</span>
-                              <span style="background-color:#D9534F;" class="badge">6</span>
-
-                              <span class="badge">2</span></td></td>
-                              <td style="font-size:30px;">66%</td>
-                            </tr>
-                            <tr>
-                              <th scope="row">4</th>
-                              <td>Installation of CCTV</td>
-                              <td>10,000</td>
-                              <td>
-                              2017-18
-                              </td>
-                              <td> Monitoring of Quality of Teaching Learning process & ensuring
- discipline in schools
- </td>
-                              <td><span style="background-color:#5CB85C;" class="badge">5</span>
-                                <span style="background-color:#F0AD4E;" class="badge">9</span>
-                              <span style="background-color:#D9534F;" class="badge">6</span>
-
-                              <span class="badge">2</span></td></td>
-                              <td style="font-size:30px;">40%</td>
-                            </tr>
-                            <tr>
-                              <th scope="row">5</th>
-                              <td>Organising of
-Parent Teacher
-Meetings</td>
-                              <td></td>
-                              <td>
-                              2017-18
-                              </td>
-                              <td>To improve teacher-
-parent interaction and
-quality of learning for
-children
- </td>
-                              <td><span style="background-color:#5CB85C;" class="badge">5</span>
-                                <span style="background-color:#F0AD4E;" class="badge">9</span>
-                              <span style="background-color:#D9534F;" class="badge">6</span>
-
-                              <span class="badge">2</span></td></td>
-                              <td style="font-size:30px;">70%</td>
-                            </tr>
-                            <tr>
-                              <th scope="row">6</th>
-                              <td>Improvement of school libraries</td>
-                              <td>1,700</td>
-                              <td>
-                                April-December 2017
-                              </td>
-                              <td>Open classroom libraries</td>
-                              <td><span style="background-color:#5CB85C;" class="badge">5</span>
-                                <span style="background-color:#F0AD4E;" class="badge">9</span>
-                              <span style="background-color:#D9534F;" class="badge">6</span>
-
-                              <span class="badge">2</span></td></td>
-                              <td style="font-size:30px;">89%</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
+                <div class="x_content">
+                  <canvas  height="217" id="lineChart"></canvas>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12" >
+              <div class="x_panel" style="height:470px;">
+                <div class="x_title">
+                  <ul class="nav nav-pills navbar-left ">
+                    <li role="presentation" ><a href="custom1-unit.html">Unit</a></li>
+                    <li role="presentation" class="active"><a href="custom1-ward.html">Ward</a></li>
+                    <li role="presentation" ><a href="custom1.html">District</a></li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <img style="width:90%;height:380px;" src="images/ward-map.png"  />
+                </div>
               </div>
             </div>
           </div>
-      </div>
-    </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12" >
+              <div class="x_panel">
+                <div class="x_title">
+                  <h2>Indicator Details</h2>
+                  <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Settings 1</a>
+                        </li>
+                        <li><a href="#">Settings 2</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <table class="table table-hover" >
+                    <thead>
+                      <tr style="text-align:left;">
+                        <th style="text-align:left;font-size:15px;">Indicator Description</th>
+                        <td style="text-align:right;font-size:15px;">% Student Attendance</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th style="text-align:left;font-size:15px;">Critical</th>
+                        <td style="text-align:right;font-size:15px;">Yes</td>
+                      </tr>
+                      <tr>
+                        <th style="text-align:left;font-size:15px;">Created On</th>
+                        <td style="text-align:right;font-size:15px;">4 April, 2017</td>
+                      </tr>
+                      <tr>
+                        <th style="text-align:left;font-size:15px;">Last Updated On</th>
+                        <td style="text-align:right;font-size:15px;">10 May, 2017</td>
+                      </tr>
+                      <tr>
+                        <th style="text-align:left;font-size:15px;">Data Source</th>
+                        <td style="text-align:right;font-size:15px;">MIS</td>
+                      </tr>
+                      <tr>
+                        <th style="text-align:left;font-size:15px;">Data Manager</th>
+                        <td style="text-align:right;font-size:15px;">Anurag Kundu</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12" >
+              <div class="x_panel">
+                <div class="x_title">
+                  <h2>Remarks</h2>
+                  <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Settings 1</a>
+                        </li>
+                        <li><a href="#">Settings 2</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <form >
+                    <div class="form-group">
+                      <input class="form-control" placeholder="Comment"/>
+                    </br>
+                      <table class="table table-hover" >
+                        <tbody>
+                          <tr>
+                            <th style="text-align:left;font-size:15px;">Comment</th>
+                            <th style="text-align:left;font-size:15px;">Name</th>
+                            <th style="text-align:left;font-size:15px;">Date</th>
+                          </tr>
+                          <tr>
+                            <td style="text-align:left;font-size:15px;">The value has been updated</td>
+                            <td style="text-align:left;font-size:15px;">Anurag Kundu</td>
+                            <td style="text-align:left;font-size:15px;">11/05/2017</td>
+                          </tr>
+                          <tr>
+                            <td style="text-align:left;font-size:15px;">Please update the indicator value</td>
+                            <td style="text-align:left;font-size:15px;">Jasmine Shah</td>
+                            <td style="text-align:left;font-size:15px;">14/04/2017</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
 
     <!-- jQuery -->
     <script src="../vendors/jquery/dist/jquery.min.js"></script>
